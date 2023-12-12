@@ -1,0 +1,366 @@
+HTML Tags :
+  HTML tags render HTML elements using Shopify-specific attributes. Learn more
+  
+  --> {% form %} :
+  --> {% style %} 
+    
+	  --> {% form %} :
+	      Generates an HTML form tag, including any required input tags to submit the form to a specific endpoint. Learn more
+	      -- Syntax :
+	          {% form 'form_type' %}
+	 		 content
+		     {% endform %}
+	  
+	  --> {% style %} :
+	      Generates an HTML style tag with an attribute of data-shopify. Learn more
+	      -- Syntax :
+	          {% style %}
+			  .h1 {
+	   		  color: {{ settings.colors_accent_1 }};
+	  		  }
+		     {% endstyle %}
+		     
+		     (or)
+		     
+		     <style data-shopify>
+	  		  .h1 {
+	   		  color: #121212;
+	  		}
+			</style>
+		
+Iteration Tags :
+  Iteration Tags are used to run a block of code repeatedly. Learn more
+  --> {% for %} 
+  --> {% else %} 
+  --> {% break %} 
+  --> {% continue %} 
+  --> {% cycle %} 
+  --> {% paginate %} 
+  --> {% tablerow %} 
+
+	  --> {% for %} :
+	      Repeatedly executes a block of code. Learn more
+	      -- Syntax :
+	         {% for product in collection.products %}
+  			{{ product.title }}
+		    {% endfor %}
+	      
+	  --> {% else %} :
+	      Specifies a fallback case for a for loop which will run if the loop has zero length (for example, you loop over a collection that has no products). Learn more
+	  	 -- Syntax :
+	  	    {% for product in collection.products %}
+    			{{ product.title }}
+			{% else %}
+  			This collection is empty.
+		    {% endfor %}
+
+	  --> {% break %} :
+	      Causes the loop to stop iterating when it encounters the break tag. Learn more
+	  	 -- Syntax :
+	  	    	{% for i in (1..5) %}
+  				{% if i == 4 %}
+    				{% break %}
+  				{% else %}
+    				{{ i }}
+  				{% endif %}
+		     {% endfor %}
+		     
+	  --> {% continue %} :
+	      Causes the loop to skip the current iteration when it encounters the continue tag. Learn more
+	  	 -- Syntax :
+	  	    {% for i in (1..5) %}
+  				{% if i == 4 %}
+    				{% continue %}
+  				{% else %}
+   			     {{ i }}
+  				{% endif %}
+   		    {% endfor %}
+   		    ------------------
+   		    1 2 3 5
+   		    
+	  --> {% cycle %} :
+	      Loops through a group of strings and outputs them in the order that they were passed as parameters. Each time cycle is called, the next string that was passed as a parameter is output. Learn more
+	  	 -- Syntax :
+	  	    {% cycle 'one', 'two', 'three' %}
+		    {% cycle 'one', 'two', 'three' %}
+		    {% cycle 'one', 'two', 'three' %}
+ 		    {% cycle 'one', 'two', 'three' %}
+ 		    -----------------------------------
+ 		    one
+		    two
+  		    three
+  		    one
+  		    
+	  --> {% paginate %} :
+	      Splits an array's items across multiple pages. Learn more
+	  	 -- Syntax :
+	  	    {% paginate array by page_size %}
+  			{% for item in array %}
+   			forloop_content
+  			{% endfor %}
+		    {% endpaginate %}
+		    
+	  --> {% tablerow %} :
+	      Generates an HTML <table>. Must be wrapped in an opening <table> and closing </table> HTML tags. Learn more
+	  	 -- Syntax :
+	  	    <table>
+  			{% tablerow product in collection.products %}
+    			{{ product.title }}
+  			{% endtablerow %}
+		    </table>
+		    ----------------------------------------------
+		    <table>
+  			<tr class="row1">
+	    			<td class="col1">
+	      		  Cool Shirt
+	    			</td>
+			    <td class="col2">
+			      Alien Poster
+			    </td>
+			    <td class="col3">
+			      Batman Poster
+			    </td>
+			    <td class="col4">
+			      Bullseye Shirt
+			    </td>
+			    <td class="col5">
+			      Another Classic Vinyl
+			    </td>
+			    <td class="col6">
+			      Awesome Jeans
+			    </td>
+  			</tr>
+		   </table>
+	
+Conditional Tags :
+  Conditional tags define conditions that determine whether blocks of Liquid code get executed. Learn more
+  --> {% if %}
+  --> {% elsif %} / {% else %}
+  --> {% case %} / {% when %}
+  --> {% unless %}
+  
+	  --> {% if %}:
+	      Executes a block of code only if a certain condition is met. Learn more
+	      -- Syntax :
+	         {% if product.title == 'Awesome Shoes' %}
+  			These shoes are awesome!
+		    {% endif %}
+
+	  --> {% elsif %} / {% else %}:
+	      Adds more conditions within an if or unless block. Learn more
+	      -- Syntax :
+	         <!-- If customer.name is equal to 'anonymous' -->
+			{% if customer.name == 'kevin' %}
+	  			Hey Kevin!
+				{% elsif customer.name == 'anonymous' %}
+				  Hey Anonymous!
+				{% else %}
+				  Hi Stranger!
+		     {% endif %}
+		     --------------------------------------
+		     Hey Anonymous!
+
+	  --> {% case %} / {% when %} :
+	      Creates a switch statement to compare a variable with different values. case initializes the switch statement and when compares its values. Learn more
+	      -- Syntax :
+	         {% assign handle = 'cake' %}
+			{% case handle %}
+			  {% when 'cake' %}
+			     This is a cake
+			  {% when 'cookie' %}
+			     This is a cookie
+			  {% else %}
+			     This is not a cake nor a cookie
+			{% endcase %}
+			----------------------------------
+			This is a cake
+			
+	  --> {% unless %} :
+	      Similar to if, but executes a block of code only if a certain condition is not met. Learn more
+	      -- Syntax :
+	         {% unless product.title == 'Awesome Shoes' %}
+		      These shoes are not awesome.
+		   {% endunless %}
+		   ----------------------------------------------
+		   These shoes are not awesome.
+
+Theme Tags :
+  Theme Tags have various functions including: outputting template-specific HTML markup, telling the theme which layout and snippets to use, and splitting a returned array into multiple pages. Learn more
+  --> {% include %}
+  --> {% javascript %}
+  --> {% layout %}
+  --> {% render %}
+  --> {% section %}
+  --> {% sections %}
+  --> {% sections 'name' %}
+  --> {% stylesheet %}
+  
+	  --> {% include %}:
+	      Inserts a snippet from the snippets folder of a theme. Learn more
+	        
+	  --> {% javascript %} :
+	      JavaScript code included in a section file. Learn more
+	      -- syntax :
+	         {% javascript %}
+  			javascript_code
+		    {% endjavascript %}
+
+	  --> {% layout %} :
+	      Loads an alternate template file from the layout folder of a theme. If no alternate layout is defined, the theme.liquid template is loaded by default. Learn more
+
+	  --> {% render %} :
+	      Renders a snippet from the snippets folder of a theme.
+		When a snippet is rendered, the code inside it does not have access to the variables assigned within its parent template. Similarly, variables assigned within the snippet can't be accessed by the code outside of the snippet. This encapsulation increases performance and helps make theme code easier to understand and maintain. Learn more
+	        
+	  --> {% section %} :
+	      Inserts a section from the sections folder of a theme. Learn more
+	      -- syntax :
+	         {% section 'footer' %}
+	         ----------------------
+	         <div id="shopify-section-footer" class="shopify-section">
+			  <!-- content of sections/footer.liquid -->
+		    </div>
+
+	  --> {% sections %} :
+	      Renders a section group. Use this tag to render section groups as part of the theme's layout content. Place the sections tag where you want to render it in the layout. Learn more
+	      -- syntax :
+	         {% sections 'name' %}
+	        
+	  --> {% stylesheet %} :
+	      CSS styles included in a section file. Learn more
+	      -- syntax :
+	         {% stylesheet %}
+			  css_styles
+		    {% endstylesheet %}
+
+Variable Tags :
+  Variable Tags are used to create new Liquid variables. Learn more
+  --> {% assign %}
+  --> {% capture %}
+  --> {% increment %}
+  --> {% decrement %}
+  
+	  --> {% assign %} :
+	      Creates a new variable. Learn more
+	      -- Syntax :
+	         {% assign my_variable = false %}
+			{% if my_variable != true %}
+			  This statement is valid.
+			{% endif %}
+			--------------------------------
+			This statement is valid.
+			
+	  --> {% capture %} :
+	      Captures the string inside of the opening and closing tags and assigns it to a variable. Variables created through {% capture %} are strings. Learn more
+	      -- Syntax :
+	         {% capture my_variable %}I am being captured.{% endcapture %}
+		    {{ my_variable }}
+		    -------------------------------
+		    I am being captured.
+
+	  --> {% increment %} :
+	      Creates a new number variable, and increases its value by one every time it is called. The initial value is 0. Learn more
+	      -- Syntax :
+	         {% increment variable %}
+			{{ variable }}
+			{% increment variable %}
+			{{ variable }}
+			{% increment variable %}
+			{{ variable }}
+			----------------------------
+			0
+			1
+			2
+
+	  --> {% decrement %} :
+	      Creates a new number variable and decreases its value by one every time it is called. The initial value is -1. Learn more
+	      -- Syntax :
+	         {% decrement variable %}
+			{{ variable }}
+			{% decrement variable %}
+			{{ variable }}
+			{% decrement variable %}
+			{{ variable }}
+			----------------------
+			-1
+			-2
+			-3
+
+Syntax Tags :
+  Syntax tags control how Liquid code is processed and rendered. Learn more
+  --> {% comment %}
+  --> {% echo %}
+  --> {% liquid %}
+  --> {% raw %}
+
+	  --> {% comment %} :
+	      Prevents an expression from being rendered or output. Any text inside comment tags won't be output, and any Liquid code will be parsed, but not executed. Learn more
+	      -- Syntax :
+	         {% comment %}
+			  content
+		    {% endcomment %}
+	         
+	  --> {% echo %} :
+	      Outputs an expression. Learn more
+	      -- Syntax :
+	         {% echo product.title %}
+				{% liquid
+				  echo product.price | money
+				%}
+		    ---------------------
+		    Health potion
+
+		    $10.00
+
+	  --> {% liquid %} :
+	      Allows you to have a block of Liquid without delimeters on each tag. Learn more
+	      -- Syntax :
+	         {% liquid
+			  # Show a message that's customized to the product type
+			
+			  assign product_type = product.type | downcase
+			  assign message = ''
+			
+			  case product_type
+			    when 'health'
+			      assign message = 'This is a health potion!'
+			    when 'love'
+			      assign message = 'This is a love potion!'
+			    else
+			      assign message = 'This is a potion!'
+			  endcase
+			
+			  echo message
+			%}
+	        -----------------------------
+	        This is a health potion!
+
+	  --> {% raw %} :
+	      Outputs any Liquid code as text instead of rendering it. Learn more
+	      -- Syntax :
+	         {% raw %}
+			  {{ 2 | plus: 2 }} equals 4.
+		    {% endraw %}
+		-------------------
+		{{ 2 | plus: 2 }} equals 4.    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
