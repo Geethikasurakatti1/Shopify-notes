@@ -1,162 +1,3 @@
-1.What is shopify?
-2.shopify used for?
-3.Major difference between shopify and Amazon?
-4.How many types of ecommerce businesses do we have?
-5.what is liquid?
-6.shopify pricing?
-7.core aspects of shopify admin for business?
-8.shopify admin by using the sidebar?
-    1.Home
-    2.Order 
-        Drafts 
-        Abandoned checkouts
-    3.products 
-        Inventory
-        Transfers
-        Collections
-        Gift Cards
-        Price lists
-    4.Customers
-        companies
-    5.Analytics
-        Reports
-        Live view
-    6.Marketing
-        campaigns
-        Automations
-    7.Discounts
-    8.Online Store
-        Themes
-        Blog posts
-        Pages
-        Navigation
-        Preferences
-    9.Settings 
-        1.Store details
-        2.Plan
-        3.Billing
-        4.Users and Permissions
-        5.Payments
-        6.Checkout and accounts
-        7.Shipping and delivery
-        8.Taxes and duties
-        9.Locations
-        10.Gift Cards
-        11.Markets
-        12.Apps and Sales Channels
-        13.Domains
-        14.Customers Events
-        15.Brand
-        16.Notification
-        17.Meta Fields
-        18.Files
-        19.Language
-        20.Policies
-9.Payments Status
-   1.Pending
-   2.Expiring
-   3.Refunded
-   4.Voided
-   5.Authorized
-   6.Expired
-   7.Partially Refunded
-   8.unpaid
-   9.overdue
-   10.paid
-   11.Partially paid
-10.Fulfillment Status
-   1.Fulfilled
-   2.Unfulfilled
-   3.Partially Fulfilled
-   4.Scheduled
-   5.Onhold
-11.Shopify URL structures
-12.Collections
-   Two types
-   1.Automated Collections
-   2.Manual Collections
-13.Sales Channels
-   1.Shop
-   2.Facebook
-   3.Buy Button
-   4.Instagram
-   5.Shopify Inbox
-   6.Wholesale Channels
-   7.HandShake
-14.Discounts
-15.Blogs
-16.Pages
-   1.Product Pages
-   2.Collection Pages
-   3.Collection List Pages
-   4.Blog pages
-   5.Blog Post Pages
-   6.Cart Page
-   7.Password Page
-   8.404 Page
-   9.Search Page
-17.Navigation
-   1.Main menu
-   2.Footer menu
-18.Section Can contain 3 Main types of Content
-   1.Main Content
-   2.Assets 
-   3.Section Schema
-     1.Name
-     2.Tag
-     3.Class
-     4.Limit
-     5.Settings
-     6.Blocks ------ type
-     7.max-Blocks
-     8.presets
-     9.Default
-19.Section Object
-   1.type
-   2.Setting
-   3.Blocks
-20.Scheme Settings
-    1.Input settings
-    2.sidebar settings
-21.Iteration Tag
-   cycle         reversed    cyclegroup
-   cycle group   break       for
-   continue      limit       table row
-   offset        cycle
-
-22.Variable Tag
-   assign
-   increment
-   decrement
-   capture
-   assign
-   capture
-
-23.Theme Tag
-  include       includewith      render      renderwith         section             raw      layout 
-  layoutname    paginate         schema      stylesheet         stylesheet_scss
-
-24.Money filters
-money
-money_with_currency
-money_without_trailing_zeros
-money_without_currency
-
-25.Layout
-26.Templates
-27.Sections
-28.Snippets
-29.Assets
-30.Config
-31.Local
-32.Shopify Theme Editor
-33.Shopify theory Questions
-34.Collection filtering & sorting
-35.Email consent
-36.Recently Viewed products
-37.Product Recommendations
-38.Product upselling
-
 ===========================================================================================================
 1.What is Liquid?
 2.What is Objects,Tags and Filters?
@@ -374,5 +215,537 @@ https://shopify.dev/docs/api/liquid
 
 10.shopify Input settings
 https://shopify.dev/docs/themes/architecture/settings/input-settings
+
+
+
+
+
+Liquid Cheat Sheet
+=============================================================================================================================
+
+Four Types 
+~~~~~~~~~~~~~~~~~~~
+1.Basic   2.Tags  3.Filters  4.Objects 
+
+
+1.Basics
+====================================================================================================================================
+ Basics
+      * Handles
+      * Truthy and Falsy
+      * Operators
+      * Whitespace Control
+      * Types
+ 
+1.Handles:
+     The handle is used to access the attributes of a Liquid object.
+     By default, it is the object’s title in lowercase with any spaces 
+     and special characters replaced by hyphens (-). Every object in Liquid 
+     (product, collection, blog, menu) has a handle. Learn more
+
+what is a handle?
+      The handle is used to access the attributes of a Liquid object. By default,
+      it is the object’s title in lowercase with any spaces and special characters 
+      replaced by hyphens (-). Every object in Liquid (product, collection, blog, menu) 
+      has a handle. Learn more
+
+<!-- the content of the About Us page -->
+{{ pages.about-us.content }}
+
+How are my handles created?
+      A product with the title ‘shirt’ will automatically be given the handle shirt. 
+      If there is already a product with the handle ‘shirt’, the handle will auto-increment. 
+      In other words, all ‘shirt’ products created after the first one will receive the handle 
+      shirt-1, shirt-2, and so on. Learn more
+ 
+2.Truthy and falsy:
+      In programming, we describe “truthy” and “falsy” as anything that returns true or false,
+      respectively, when used inside an if statement. Learn more
+
+what is truthy?
+      All values in Liquid are truthy, with the exception of nil and false. In this example,
+      the variable is a string type but it evaluates as true. Learn more
+
+     {% assign tobi = 'tobi' %}
+     {% if tobi %}
+     This will always be true.
+     {% endif %}
+
+what is falsy?
+     The only values that are falsy in Liquid are nil and false. nil is returned when a 
+     Liquid object doesn’t have anything to return. For example, if a collection doesn’t 
+     have a collection image, collection.image will be set to nil. Learn more
+
+     {% if collection.image %}
+     <!-- output collection image -->
+     {% endif %}
+
+3.Operators:
+     Liquid has access to all of the logical and comparison operators. These can be used in tags such as if and unless. Learn more
+(==)?
+
+equals Learn more
+
+{% if product.title == 'Awesome Shoes' %}
+  These shoes are awesome!
+{% endif %}
+
+(!=)?
+
+does not equal Learn more
+
+(>)?
+
+greater than Learn more
+
+(<)?
+
+less than Learn more
+
+(>=)?
+
+greater than or equal to Learn more
+
+(<=)?
+
+less than or equal to Learn more
+
+(or)?
+
+condition A or condition B Learn more
+
+(and)?
+
+condition A and condition B Learn more
+
+(contains)?
+
+checks for the presence of a substring inside a string or array Learn more
+
+{% if product.title contains 'Pack' %}
+  This product’s title contains the word Pack.
+{% endif %}
+
+4.Whitespace control:
+       In Liquid, you can include a hyphen in your tag syntax {{-, -}}, {%-, and -%} to strip whitespace from the left or right side of a rendered tag. Normally, even if it doesn’t output text, any line of Liquid in your template will still output an empty line in your rendered HTML. Learn more
+
+Whitespace Control?
+
+   Using hyphens, the assign statement doesn't output a blank line. Learn more
+
+   {%- assign my_variable = "tomato" -%}
+   {{ my_variable }}
+   tomato
+
+5.Types:
+  Liquid objects can return one of six types: String, Number, Boolean, Nil, Array, or EmptyDrop. Liquid variables can be initialized by using the assign or capture tags. Learn more
+
+strings?
+   Strings are declared by wrapping the variable’s value in single or double quotes. Learn more
+
+{% assign my_string = 'Hello World!' %}
+
+numbers?
+    Numbers include floats and integers. Learn more
+
+{% assign my_num = 25 %}
+
+booleans?
+    Booleans are either true or false. No quotations are necessary when declaring a boolean. Learn more
+
+{% assign foo = true %}
+{% assign bar = false %}
+
+nill?
+  Nil is an empty value that is returned when Liquid code has no results. It is not a string
+  with the characters ‘nil’. Nil is treated as false in the conditions of {% if %} blocks and 
+  other Liquid tags that check for the truthfulness of a statement. Learn more
+
+arrays?
+   Arrays hold a list of variables of all types. To access items in an array, you can loop
+   through each item in the array using a for tag or a tablerow tag. Learn more
+
+  {% for tag in product.tags %}
+  {{ tag }}
+  {% endfor %}
+
+emptydrop?
+    An EmptyDrop object is returned whenever you try to access a non-existent object
+   (for example, a collection, page or blog that was deleted or hidden) by a handle. Learn more
+
+
+
+
+
+
+
+
+2.HTML Tags :
+====================================================================================================================================
+1.HTML tags render HTML elements using Shopify-specific attributes. Learn more
+  
+  --> {% form %} :
+  --> {% style %} 
+    
+	  --> {% form %} :
+	      Generates an HTML form tag, including any required input tags to submit the form to a specific endpoint. Learn more
+	      -- Syntax :
+	          {% form 'form_type' %}
+	 		 content
+		     {% endform %}
+	  
+	  --> {% style %} :
+	      Generates an HTML style tag with an attribute of data-shopify. Learn more
+	      -- Syntax :
+	          {% style %}
+			  .h1 {
+	   		  color: {{ settings.colors_accent_1 }};
+	  		  }
+		     {% endstyle %}
+		     
+		     (or)
+		     
+		     <style data-shopify>
+	  		  .h1 {
+	   		  color: #121212;
+	  		}
+			</style>
+		
+2.Iteration Tags :
+  Iteration Tags are used to run a block of code repeatedly. Learn more
+  --> {% for %} 
+  --> {% else %} 
+  --> {% break %} 
+  --> {% continue %} 
+  --> {% cycle %} 
+  --> {% paginate %} 
+  --> {% tablerow %} 
+
+	  --> {% for %} :
+	      Repeatedly executes a block of code. Learn more
+	      -- Syntax :
+	         {% for product in collection.products %}
+  			{{ product.title }}
+		    {% endfor %}
+	      
+	  --> {% else %} :
+	      Specifies a fallback case for a for loop which will run if the loop has zero length (for example, you loop over a collection that has no products). Learn more
+	  	 -- Syntax :
+	  	    {% for product in collection.products %}
+    			{{ product.title }}
+			{% else %}
+  			This collection is empty.
+		    {% endfor %}
+
+	  --> {% break %} :
+	      Causes the loop to stop iterating when it encounters the break tag. Learn more
+	  	 -- Syntax :
+	  	    	{% for i in (1..5) %}
+  				{% if i == 4 %}
+    				{% break %}
+  				{% else %}
+    				{{ i }}
+  				{% endif %}
+		     {% endfor %}
+		     
+	  --> {% continue %} :
+	      Causes the loop to skip the current iteration when it encounters the continue tag. Learn more
+	  	 -- Syntax :
+	  	    {% for i in (1..5) %}
+  				{% if i == 4 %}
+    				{% continue %}
+  				{% else %}
+   			     {{ i }}
+  				{% endif %}
+   		    {% endfor %}
+   		    ------------------
+   		    1 2 3 5
+   		    
+	  --> {% cycle %} :
+	      Loops through a group of strings and outputs them in the order that they were passed as parameters. Each time cycle is called, the next string that was passed as a parameter is output. Learn more
+	  	 -- Syntax :
+	  	    {% cycle 'one', 'two', 'three' %}
+		    {% cycle 'one', 'two', 'three' %}
+		    {% cycle 'one', 'two', 'three' %}
+ 		    {% cycle 'one', 'two', 'three' %}
+ 		    -----------------------------------
+ 		    one
+		    two
+  		    three
+  		    one
+  		    
+	  --> {% paginate %} :
+	      Splits an array's items across multiple pages. Learn more
+	  	 -- Syntax :
+	  	    {% paginate array by page_size %}
+  			{% for item in array %}
+   			forloop_content
+  			{% endfor %}
+		    {% endpaginate %}
+		    
+	  --> {% tablerow %} :
+	      Generates an HTML <table>. Must be wrapped in an opening <table> and closing </table> HTML tags. Learn more
+	  	 -- Syntax :
+	  	    <table>
+  			{% tablerow product in collection.products %}
+    			{{ product.title }}
+  			{% endtablerow %}
+		    </table>
+		    ----------------------------------------------
+		    <table>
+  			<tr class="row1">
+	    			<td class="col1">
+	      		  Cool Shirt
+	    			</td>
+			    <td class="col2">
+			      Alien Poster
+			    </td>
+			    <td class="col3">
+			      Batman Poster
+			    </td>
+			    <td class="col4">
+			      Bullseye Shirt
+			    </td>
+			    <td class="col5">
+			      Another Classic Vinyl
+			    </td>
+			    <td class="col6">
+			      Awesome Jeans
+			    </td>
+  			</tr>
+		   </table>
+	
+3.Conditional Tags :
+  Conditional tags define conditions that determine whether blocks of Liquid code get executed. Learn more
+  --> {% if %}
+  --> {% elsif %} / {% else %}
+  --> {% case %} / {% when %}
+  --> {% unless %}
+  
+	  --> {% if %}:
+	      Executes a block of code only if a certain condition is met. Learn more
+	      -- Syntax :
+	         {% if product.title == 'Awesome Shoes' %}
+  			These shoes are awesome!
+		    {% endif %}
+
+	  --> {% elsif %} / {% else %}:
+	      Adds more conditions within an if or unless block. Learn more
+	      -- Syntax :
+	         <!-- If customer.name is equal to 'anonymous' -->
+			{% if customer.name == 'kevin' %}
+	  			Hey Kevin!
+				{% elsif customer.name == 'anonymous' %}
+				  Hey Anonymous!
+				{% else %}
+				  Hi Stranger!
+		     {% endif %}
+		     --------------------------------------
+		     Hey Anonymous!
+
+	  --> {% case %} / {% when %} :
+	      Creates a switch statement to compare a variable with different values. case initializes the switch statement and when compares its values. Learn more
+	      -- Syntax :
+	         {% assign handle = 'cake' %}
+			{% case handle %}
+			  {% when 'cake' %}
+			     This is a cake
+			  {% when 'cookie' %}
+			     This is a cookie
+			  {% else %}
+			     This is not a cake nor a cookie
+			{% endcase %}
+			----------------------------------
+			This is a cake
+			
+	  --> {% unless %} :
+	      Similar to if, but executes a block of code only if a certain condition is not met. Learn more
+	      -- Syntax :
+	         {% unless product.title == 'Awesome Shoes' %}
+		      These shoes are not awesome.
+		   {% endunless %}
+		   ----------------------------------------------
+		   These shoes are not awesome.
+
+4.Theme Tags :
+  Theme Tags have various functions including: outputting template-specific HTML markup, telling the theme which layout and snippets to use, and splitting a returned array into multiple pages. Learn more
+  --> {% include %}
+  --> {% javascript %}
+  --> {% layout %}
+  --> {% render %}
+  --> {% section %}
+  --> {% sections %}
+  --> {% sections 'name' %}
+  --> {% stylesheet %}
+  
+	  --> {% include %}:
+	      Inserts a snippet from the snippets folder of a theme. Learn more
+	        
+	  --> {% javascript %} :
+	      JavaScript code included in a section file. Learn more
+	      -- syntax :
+	         {% javascript %}
+  			javascript_code
+		    {% endjavascript %}
+
+	  --> {% layout %} :
+	      Loads an alternate template file from the layout folder of a theme. If no alternate layout is defined, the theme.liquid template is loaded by default. Learn more
+
+	  --> {% render %} :
+	      Renders a snippet from the snippets folder of a theme.
+		When a snippet is rendered, the code inside it does not have access to the variables assigned within its parent template. Similarly, variables assigned within the snippet can't be accessed by the code outside of the snippet. This encapsulation increases performance and helps make theme code easier to understand and maintain. Learn more
+	        
+	  --> {% section %} :
+	      Inserts a section from the sections folder of a theme. Learn more
+	      -- syntax :
+	         {% section 'footer' %}
+	         ----------------------
+	         <div id="shopify-section-footer" class="shopify-section">
+			  <!-- content of sections/footer.liquid -->
+		    </div>
+
+	  --> {% sections %} :
+	      Renders a section group. Use this tag to render section groups as part of the theme's layout content. Place the sections tag where you want to render it in the layout. Learn more
+	      -- syntax :
+	         {% sections 'name' %}
+	        
+	  --> {% stylesheet %} :
+	      CSS styles included in a section file. Learn more
+	      -- syntax :
+	         {% stylesheet %}
+			  css_styles
+		    {% endstylesheet %}
+
+5.Variable Tags :
+  Variable Tags are used to create new Liquid variables. Learn more
+  --> {% assign %}
+  --> {% capture %}
+  --> {% increment %}
+  --> {% decrement %}
+  
+	  --> {% assign %} :
+	      Creates a new variable. Learn more
+	      -- Syntax :
+	         {% assign my_variable = false %}
+			{% if my_variable != true %}
+			  This statement is valid.
+			{% endif %}
+			--------------------------------
+			This statement is valid.
+			
+	  --> {% capture %} :
+	      Captures the string inside of the opening and closing tags and assigns it to a variable. Variables created through {% capture %} are strings. Learn more
+	      -- Syntax :
+	         {% capture my_variable %}I am being captured.{% endcapture %}
+		    {{ my_variable }}
+		    -------------------------------
+		    I am being captured.
+
+	  --> {% increment %} :
+	      Creates a new number variable, and increases its value by one every time it is called. The initial value is 0. Learn more
+	      -- Syntax :
+	         {% increment variable %}
+			{{ variable }}
+			{% increment variable %}
+			{{ variable }}
+			{% increment variable %}
+			{{ variable }}
+			----------------------------
+			0
+			1
+			2
+
+	  --> {% decrement %} :
+	      Creates a new number variable and decreases its value by one every time it is called. The initial value is -1. Learn more
+	      -- Syntax :
+	         {% decrement variable %}
+			{{ variable }}
+			{% decrement variable %}
+			{{ variable }}
+			{% decrement variable %}
+			{{ variable }}
+			----------------------
+			-1
+			-2
+			-3
+
+6.Syntax Tags :
+  Syntax tags control how Liquid code is processed and rendered. Learn more
+  --> {% comment %}
+  --> {% echo %}
+  --> {% liquid %}
+  --> {% raw %}
+
+	  --> {% comment %} :Syntaxes 
+	      Prevents an expression from being rendered or output. Any text inside comment tags won't be output, and any Liquid code will be parsed, but not executed. Learn more
+	      -- Syntax :
+	         {% comment %}
+			  content
+		    {% endcomment %}
+	         
+	  --> {% echo %} :
+	      Outputs an expression. Learn more
+	      -- Syntax :
+	         {% echo product.title %}
+				{% liquid
+				  echo product.price | money
+				%}
+		    ---------------------
+		    Health potion
+
+		    $10.00
+
+	  --> {% liquid %} :
+	      Allows you to have a block of Liquid without delimeters on each tag. Learn more
+	      -- Syntax :
+	         {% liquid
+			  # Show a message that's customized to the product type
+			
+			  assign product_type = product.type | downcase
+			  assign message = ''
+			
+			  case product_type
+			    when 'health'
+			      assign message = 'This is a health potion!'
+			    when 'love'
+			      assign message = 'This is a love potion!'
+			    else
+			      assign message = 'This is a potion!'
+			  endcase
+			
+			  echo message
+			%}
+	        -----------------------------
+	        This is a health potion!
+
+	  --> {% raw %} :
+	      Outputs any Liquid code as text instead of rendering it. Learn more
+	      -- Syntax :
+	         {% raw %}
+			  {{ 2 | plus: 2 }} equals 4.
+		    {% endraw %}
+		-------------------
+		{{ 2 | plus: 2 }} equals 4.    
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 
