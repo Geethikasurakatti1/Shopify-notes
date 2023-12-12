@@ -1,5 +1,164 @@
-HTML Tags :
-  HTML tags render HTML elements using Shopify-specific attributes. Learn more
+Liquid Cheat Sheet
+===================================================================================================================================== Four Types 
+~~~~~~~~~~~~~~~~~~~
+1.Basic   2.Tags  3.Filters  4.Objects 
+
+
+1.Basics
+====================================================================================================================================
+ Basics
+      * Handles
+      * Truthy and Falsy
+      * Operators
+      * Whitespace Control
+      * Types
+ 
+1.Handles:
+     The handle is used to access the attributes of a Liquid object.
+     By default, it is the object’s title in lowercase with any spaces 
+     and special characters replaced by hyphens (-). Every object in Liquid 
+     (product, collection, blog, menu) has a handle. Learn more
+
+what is a handle?
+      The handle is used to access the attributes of a Liquid object. By default,
+      it is the object’s title in lowercase with any spaces and special characters 
+      replaced by hyphens (-). Every object in Liquid (product, collection, blog, menu) 
+      has a handle. Learn more
+
+<!-- the content of the About Us page -->
+{{ pages.about-us.content }}
+
+How are my handles created?
+      A product with the title ‘shirt’ will automatically be given the handle shirt. 
+      If there is already a product with the handle ‘shirt’, the handle will auto-increment. 
+      In other words, all ‘shirt’ products created after the first one will receive the handle 
+      shirt-1, shirt-2, and so on. Learn more
+ 
+2.Truthy and falsy:
+      In programming, we describe “truthy” and “falsy” as anything that returns true or false,
+      respectively, when used inside an if statement. Learn more
+
+what is truthy?
+      All values in Liquid are truthy, with the exception of nil and false. In this example,
+      the variable is a string type but it evaluates as true. Learn more
+
+     {% assign tobi = 'tobi' %}
+     {% if tobi %}
+     This will always be true.
+     {% endif %}
+
+what is falsy?
+     The only values that are falsy in Liquid are nil and false. nil is returned when a 
+     Liquid object doesn’t have anything to return. For example, if a collection doesn’t 
+     have a collection image, collection.image will be set to nil. Learn more
+
+     {% if collection.image %}
+     <!-- output collection image -->
+     {% endif %}
+
+3.Operators:
+     Liquid has access to all of the logical and comparison operators. These can be used in tags such as if and unless. Learn more
+(==)?
+
+equals Learn more
+
+{% if product.title == 'Awesome Shoes' %}
+  These shoes are awesome!
+{% endif %}
+
+(!=)?
+
+does not equal Learn more
+
+(>)?
+
+greater than Learn more
+
+(<)?
+
+less than Learn more
+
+(>=)?
+
+greater than or equal to Learn more
+
+(<=)?
+
+less than or equal to Learn more
+
+(or)?
+
+condition A or condition B Learn more
+
+(and)?
+
+condition A and condition B Learn more
+
+(contains)?
+
+checks for the presence of a substring inside a string or array Learn more
+
+{% if product.title contains 'Pack' %}
+  This product’s title contains the word Pack.
+{% endif %}
+
+4.Whitespace control:
+       In Liquid, you can include a hyphen in your tag syntax {{-, -}}, {%-, and -%} to strip whitespace from the left or right side of a rendered tag. Normally, even if it doesn’t output text, any line of Liquid in your template will still output an empty line in your rendered HTML. Learn more
+
+Whitespace Control?
+
+   Using hyphens, the assign statement doesn't output a blank line. Learn more
+
+   {%- assign my_variable = "tomato" -%}
+   {{ my_variable }}
+   tomato
+
+5.Types:
+  Liquid objects can return one of six types: String, Number, Boolean, Nil, Array, or EmptyDrop. Liquid variables can be initialized by using the assign or capture tags. Learn more
+
+strings?
+   Strings are declared by wrapping the variable’s value in single or double quotes. Learn more
+
+{% assign my_string = 'Hello World!' %}
+
+numbers?
+    Numbers include floats and integers. Learn more
+
+{% assign my_num = 25 %}
+
+booleans?
+    Booleans are either true or false. No quotations are necessary when declaring a boolean. Learn more
+
+{% assign foo = true %}
+{% assign bar = false %}
+
+nill?
+  Nil is an empty value that is returned when Liquid code has no results. It is not a string
+  with the characters ‘nil’. Nil is treated as false in the conditions of {% if %} blocks and 
+  other Liquid tags that check for the truthfulness of a statement. Learn more
+
+arrays?
+   Arrays hold a list of variables of all types. To access items in an array, you can loop
+   through each item in the array using a for tag or a tablerow tag. Learn more
+
+  {% for tag in product.tags %}
+  {{ tag }}
+  {% endfor %}
+
+emptydrop?
+    An EmptyDrop object is returned whenever you try to access a non-existent object
+   (for example, a collection, page or blog that was deleted or hidden) by a handle. Learn more
+
+
+
+
+
+
+
+
+2.HTML Tags :
+====================================================================================================================================
+1.HTML tags render HTML elements using Shopify-specific attributes. Learn more
   
   --> {% form %} :
   --> {% style %} 
@@ -28,7 +187,7 @@ HTML Tags :
 	  		}
 			</style>
 		
-Iteration Tags :
+2.Iteration Tags :
   Iteration Tags are used to run a block of code repeatedly. Learn more
   --> {% for %} 
   --> {% else %} 
@@ -132,7 +291,7 @@ Iteration Tags :
   			</tr>
 		   </table>
 	
-Conditional Tags :
+3.Conditional Tags :
   Conditional tags define conditions that determine whether blocks of Liquid code get executed. Learn more
   --> {% if %}
   --> {% elsif %} / {% else %}
@@ -184,7 +343,7 @@ Conditional Tags :
 		   ----------------------------------------------
 		   These shoes are not awesome.
 
-Theme Tags :
+4.Theme Tags :
   Theme Tags have various functions including: outputting template-specific HTML markup, telling the theme which layout and snippets to use, and splitting a returned array into multiple pages. Learn more
   --> {% include %}
   --> {% javascript %}
@@ -233,7 +392,7 @@ Theme Tags :
 			  css_styles
 		    {% endstylesheet %}
 
-Variable Tags :
+5.Variable Tags :
   Variable Tags are used to create new Liquid variables. Learn more
   --> {% assign %}
   --> {% capture %}
@@ -286,14 +445,14 @@ Variable Tags :
 			-2
 			-3
 
-Syntax Tags :
+6.Syntax Tags :
   Syntax tags control how Liquid code is processed and rendered. Learn more
   --> {% comment %}
   --> {% echo %}
   --> {% liquid %}
   --> {% raw %}
 
-	  --> {% comment %} :
+	  --> {% comment %} :Syntaxes 
 	      Prevents an expression from being rendered or output. Any text inside comment tags won't be output, and any Liquid code will be parsed, but not executed. Learn more
 	      -- Syntax :
 	         {% comment %}
