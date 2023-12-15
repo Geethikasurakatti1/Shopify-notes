@@ -1,0 +1,1924 @@
+Home:
+    - Improve your conversion rate
+    - Setup guide
+
+           --> Improve your conversion rate :
+                     -- Give a buy X, get Y discount :
+                            - Create discount :
+                              --> Buy X get Y :
+                                -- Product discount
+                                -- Method :
+                                   --> Discount code
+                                       -- Discount code
+                                       -- Generate random code :
+                                         (Customers must enter this code at checkout.)
+                                   --> Automatics Discount :
+                                       -- Title :
+                                         (Customers will see this in their cart and at checkout.)
+
+                              --> Customer spends :
+                                -- Minimum quantity of items :
+                                   --> Quantity
+                                   --> Any items from :
+                                       -- Specific products
+                                       -- Specific collectons
+                                   --> Search products
+                                   --> Browse :
+                                       -- search 
+                                       -- product
+                                       
+                              --> Customer gets :
+                                  Customers must add the quantity of items specified below to their cart.
+                                  -- Quantity
+                                  -- Any items from :
+                                     --> Specific products
+                                     --> Specific collections
+                                  -- Specific products
+                                  -- Browse
+                                  -- At a discounted value :
+                                     --> Percentage
+                                     --> Amount off each
+                                     --> free
+                                  -- Set a maximum number of uses per order (checkbox)
+                                  
+                               --> Customer eligibility :
+                                   -- All customers
+                                   -- Specific customer segments
+                                   -- Specific customers
+                               
+                               --> Maximum discount uses :
+                                   -- Limit number of times this discount can be used in total
+                                   -- Limit to one use per customer   
+                                   
+                               --> Combinations :
+                                   -- Product discounts
+                                   -- Order discounts
+                                   -- Shipping discounts
+                                   
+                               --> Active dates :
+                                   -- Start date
+                                   -- Start time (EST)
+                                   -- Set end date :
+                                      --> End date
+                                      --> End time (EST)
+                                      
+                               --> Summary :
+                                   -- No discount code yet
+                                   -- Type and method :
+                                      --> Buy X get Y
+                                      --> Code
+                                   -- Details
+                                   -- Performance
+                                   
+                               --> Sales channels :
+                                   -- Point of Sale   
+                               
+                               --> Discard
+                               --> Save discount
+                                   
+                               --> Minimum purchase amount :
+                                   -- Amount
+                                   -- Any items from
+                                      --> Specific products
+                                      --> Specific collections
+                                          - Search products
+                                          - Browse
+                                   -- Minimum purchase amount
+                     -- Answer questions with Shopify Inbox :
+                            - Add app
+
+                     -- Gain trust with reviews :
+                            - browse product review apps
+
+                     -- Hamburger Icon :
+                            - Dismiss
+                            - Give feedback
+                                                             
+           --> Setup guide :
+                     -- Customize your online store :
+                            - Customize theme :
+                                  --- Online Store  
+                                  --- Pin 
+                                  --- Hamburger Icon
+
+                     -- Add your first product :
+                            - Add product :
+                              --> Title
+                              --> Description
+                              --> Media :
+                                  -- Upload new
+                                  -- Add from URL
+                              --> Pricing :
+                                  -- Price
+                                  -- Compare-at price
+                                  -- Charge tax on this product
+                                  -- Cost per item
+                                  -- Profit
+                                  -- Margin
+                              --> Inventory :
+                                  -- Track quantity
+                                  -- Quantity
+                                  -- Shop location
+                                  -- Continue selling when out of stock
+                                  -- This product has a SKU or barcode
+                              --> Shipping :
+                                  - This is a physical product
+                                  - Weight
+                                  - Units
+                                  - Add customs information
+                              --> Variants :
+                                  - Add option like size or color
+                              --> Search engine listing :
+                                  - Edit :
+                                    -> Page title
+                                    -> Meta description
+                                    -> URL handle
+                              --> Status :
+                                  - Active
+                                  - Draft
+                              --> Publishing :
+                                  - Sales channels :
+                                    -> Online Store
+                                    -> Point of Sale
+                                  - Hamburger Icon(..) :
+                                    -> Manage Sales Channel
+                                    -> Manage Markets
+                                  - Market :
+                                    -> India and International
+                                  - Date and Time :
+                                    -> Cancel
+                                    -> Schedule piblishing 
+                                  - Product organization :
+                                    -> Product category
+                                    -> Tax rates
+                                    -> Product type
+                                    -> Vendor
+                                    -> Collections
+                                    -> Tags
+                                  - Theme template :
+                                    -> Default Product
+                               --> Save       	
+                            - Import products
+
+                     -- Add a custom domain :
+                            - Add domain              
+                            - Learn more
+                              -> Add product
+                              
+                                  ---> Online Store :
+                                     --- Theme :
+                                         - Hamburger Icon :
+                                              -- View Your Store
+                                         - Learn More
+                                         - Hamburger Icon
+                                         - Customize :
+                                           --> Header :
+                                               -- Announcement bar :
+                                                  -> Color scheme :
+                                                     -- change
+                                                     -- Show separator line
+                                                     -- Social media icons
+                                                     -- Show icons on desktop
+                                                     -- Announcements
+                                                     -- Auto-rotate announcements
+                                                     -- Change every
+                                                     -- Country/region selector
+                                                     -- Enable country/region selector
+                                                     -- Language selector
+                                                     -- Enable language selector
+                                                     -- Theme settings :
+                                                        -> Facebook
+                                                        -> Instagram
+                                                        -> YouTube
+                                                        -> TikTok
+                                                        -> Twitter
+                                                        -> Pinterest
+                                                        -> Snapchat
+                                                        -> Tumblr
+                                                        -> Vimeo
+                                                        -> Remove Section
+                                                     -- Custom CSS :
+                                                        -> Add custom styles to this section only.  
+                                                        
+                                                  -> Welcome to our store :
+                                                     -- Text
+                                                     -- Link
+                                                        -> Collections :
+                                                           -- All Collections
+                                                           -- Home Page
+                                                        -> Products :
+                                                           -- All products
+                                                        -> Pages :
+                                                           -- Contact
+                                                           -- Back
+                                                        -> Blogs :
+                                                           -- News
+                                                           -- Back  
+                                                        -> Blog posts :
+                                                           -- No results
+                                                        -> Policies :
+                                                           -- No results                                                          
+                                                  -> Add Announcement
+                                               -> Header :
+                                                  -- Desktop logo position
+                                                     -> Top Left
+                                                     -> Top Center
+                                                     -> Middle Left
+                                                     -> Middle Center
+                                                  -- Menu :
+                                                     -> Main Menu
+                                                     -> Change Menu :
+                                                        -- Change Menu
+                                                        -- Remove Menu
+                                                  -- Desktop menu type :
+                                                     -> Dropdown
+                                                     -> Mega menu
+                                                     -> Drawer
+                                                  -- Sticky header :
+                                                     -> None
+                                                     -> On scroll up
+                                                     -> Always
+                                                     -> Always, reduce logo size
+                                                     -> Show separator line
+                                                  -- Color :
+                                                     -> Background
+                                                     -> Background gradient
+                                                     -> Text
+                                                     -> Solid button background
+                                                     -> Solid button label
+                                                     -> Outline button
+                                                     -> Shadow
+                                                     -> Change :
+                                                        -- Schemes
+                                                  -- Country/region selector :
+                                                     -> Enable country/region selector 
+                                                  -- Language selector :
+                                                     -> Enable language selector
+                                                  -- Mobile layout :
+                                                     -> Center
+                                                     -> Left
+                                                  -- Spacing
+                                                  -- Section Padding :
+                                                     -> Top padding
+                                                     -> Bottom padding
+                                                     
+                                               -> Theme settings :
+                                                  -- Enable search suggestions
+                                                  -- Cart type :
+                                                     -> Drawer
+                                                     -> Page
+                                                     -> Popup notification
+                                                  -- Facebook
+                                                     -> Instagram
+                                                     -> YouTube
+                                                     -> TikTok
+                                                     -> Twitter
+                                                     -> Pinterest
+                                                     -> Snapchat
+                                                     -> Tumblr
+                                                     -> Vimeo
+                                                     -> Logo :
+                                                        -- Select Image
+                                                        -- Explore Free Images
+                                                     -> Vertical offset
+                                                  -- Custom CSS 
+                                                     -> Add custom styles to this section only.  
+                                                  -- Add block
+                                               -- Add a section
+                                                                                                     
+                                           --> Template :
+                                               -- Image banner :
+                                                  -> First image :
+                                                     -- Select Image
+                                                     -- Explore Free Images
+                                                  -> Second image :
+                                                     -- elect Image
+                                                     -- Explore Free Images
+                                                  -> Image overlay opacity
+                                                  -> Banner height :
+                                                     -- Large
+                                                     -- Adapt to first page
+                                                     -- Small
+                                                     -- Medium
+                                                  -> Desktop content position :
+                                                     -- Show container on desktop
+                                                  -> Desktop content alignment :
+                                                     -- Left
+                                                     -- Center
+                                                     -- Right
+                                                  -> Color scheme :
+                                                     -> Background
+                                                     -> Background gradient
+                                                     -> Text
+                                                     -> Solid button background
+                                                     -> Solid button label
+                                                     -> Outline button
+                                                     -> Shadow
+                                                     -> Change :
+                                                        -- Schemes
+                                                  -> Animations :
+                                                     -- Image behavior :
+                                                        - None
+                                                        - Ambient movement
+                                                        - Fixed background position
+                                                        - Zoom in scroll
+                                                  -> Mobile Layout :
+                                                     - left
+                                                     - Center
+                                                     - Right
+                                                     - Stack images on mobile
+                                                     - Show container on mobile
+                                                  -> Theme settings :
+                                                     - Reveal sections on scroll
+                                                  -> Custom CSS :
+                                                     - Add custom styles to this section only.
+                                               -- Image banner :
+                                                  -> Browse our latest products :
+                                                     - Heading
+                                                     - Heading size :
+                                                       -> Small
+                                                       -> Medium
+                                                       -> Lagre
+                                                  -> Buttons :
+                                                     - First button label
+                                                     - First button link
+                                                     - Use outline button style
+                                                     - Second button label
+                                                     - Second button link
+                                                     - Use outline button style
+                                                     - Remove block
+                                                  -> Add a block 
+                                                                                                           
+                                               -- Freatured Collection :
+                                                  -> Heading
+                                                  -> Heading size :
+                                                     - Small
+                                                     - Medium
+                                                     - Large
+                                                  -> Description
+                                                  -> Show collection description from the admin
+                                                  -> Description style :
+                                                     - Body
+                                                     - Subtitle
+                                                     - Uppercase
+                                                  -> Collection :
+                                                     - All
+                                                     - Change :
+                                                       -> Change collection
+                                                       -> Remove collection 
+                                                  -> Maximum products to show
+                                                  -> Number of columns on desktop
+                                                  -> Make products full width
+                                                  -> Enable "View all" if collection has more products than shown
+                                                  -> "View all" style :
+                                                     - Link
+                                                     - Outline button
+                                                     - Solid button
+                                                  -> Enable carousel on desktop
+                                                  -> Color scheme :
+                                                     - Background
+                                                     - Background gradient
+                                                     - Text
+                                                     - Solid button background
+                                                     - Solid button label
+                                                     - Outline button
+                                                     - Shadow
+                                                     - Change
+                                                  -> Product card :
+                                                     - Adapt to Image
+                                                     - portrait
+                                                     - Square
+                                                  -> Image shape :
+                                                     - Default
+                                                     - Show second image on hover
+                                                     - Show vendor
+                                                     - Show product rating To display a rating, add a product rating app.  
+                                                     - Enable quick add button
+                                                  -> Mobile Layout :
+                                                     - 1Column
+                                                     - 2Column
+                                                     - Enable swipe on mobile
+                                                  -> Section padding :
+                                                     - Top padding
+                                                     - Bottom padding
+                                                  -> Custom CSS :
+                                                     - Add custom styles to this section only.
+                                                  -> Remove Section
+                                                           
+                                               -- Add a section
+                                           --> Footer :
+                                               -- Add a section
+                                               -- Footer :
+                                                  -> Color scheme :
+                                                     - Background
+                                                     - Background gradient
+                                                     - Text
+                                                     - Solid button background
+                                                     - Solid button label
+                                                     - Outline button
+                                                     - Shadow
+                                                     - Change
+                                                  -> Email Signup
+                                                  -> Show email signup
+                                                  -> Heading
+                                                  -> Follow on Shop :
+                                                     - Enable Follow on Shop
+                                                  -> Social media icons :
+                                                     - Show social media icons
+                                                  -> Country/region selector :
+                                                     - Enable country/region selector
+                                                  -> Language selector :
+                                                     - Enable language selector
+                                                  -> Payment methods :
+                                                     - Show payment icons
+                                                  -> Policy links :
+                                                     - Show policy links
+                                                  -> Spacing :
+                                                     - Top margin
+                                                  -> Section padding :
+                                                     - Top padding 
+                                                     - Bottom padding
+                                                  -> Custom CSS : 
+                                                     - Add custom styles to this section only.
+                                                     
+                                                     
+                                         - See store password :
+                                              -- Preferences :
+                                                 -> See store password
+                                              -- Title and meta description :
+                                                     --> Homepage title
+                                                     --> Homepage meta description
+                                              -- Social sharing image :
+                                                     --> Social sharing image preview :
+                                                     --> Add Image
+                                                     --> Page title
+                                              -- Google Analytics :
+                                                     --> Manage pixel here
+                                                     --> Google Analytics account (how do I set this up?)
+                                              -- Facebook Pixel :
+                                                     --> Set up Facebook
+                                              -- Customer privacy :
+                                                     --> Collected before consent
+                                                     --> Collected after consent
+                                                     --> Activate
+                                              -- Restrict store access :
+                                                     --> Password protection :
+                                                         - Restrict access to visitors with the password
+                                                         - Password
+                                                         - Message to your visitors
+                                              -- B2B customers :
+                                                 --> Learn More
+                                                 --> Manage Companies
+                                                 --> Restrict access to B2B customers only
+                                              -- Spam protection :
+                                                 --> Enable Google reCAPTCHA on contact and comment forms
+                                                 --> Enable Google reCAPTCHA on login, create account and password recovery pages
+                                              -- Save
+                                              
+                                     --- Theme library :
+                                         - Add theme :
+                                              -- Visit theme store
+                                              -- Upload zip file
+                                              -- Connect from Github
+                                         - Empty theme :
+                                              -- Hamburger Icon
+                                              -- Publish
+                                              -- Customize
+                                         - Empty theme : 
+                                              -- Hamburger Icon
+                                              -- Publish
+                                              -- Customize
+
+                                   --- Popular free themes :
+                                         - Theme Card :
+                                              -- Dawn
+                                              -- Add
+                                         - Theme Card :
+                                              -- Spotlight
+                                              -- Add
+                                         - Theme Card :
+                                              -- Refresh
+                                              -- Add
+                                         - Theme Card :
+                                              -- Craft
+                                              -- Add
+                                         - Theme Card :
+                                              -- Sense
+                                              -- Add
+
+                                  ---> Pin :
+                                         - Unpin from your navigator
+                                         - Pin from your navigator
+
+                                  ---> Hamburger Icon :
+                                         - Manage app
+                                         - Uninstall
+
+Orders :
+    - Drafts
+    - Abandoned Checkouts :
+
+           --> Orders :
+                     -- More actions :
+                            - Hide analytical bars
+
+           -->Drafts :
+                     -- Create draft order :
+                            - Create order : 
+                                  --- Products7
+                                  --- Add custom item
+                                  --- Search product
+                                  --- Browse :
+                                      -> Search product :
+                                         -- All products :
+                                            -> Search product
+                                            -> Filter :
+                                               - Barcode
+                                               - SKU
+                                               - Variant ID
+                                               - Variant title
+                                            -> products
+                                            -> Cancel
+                                            -> Add   
+                                         -- Popular products :
+                                            -> Search product
+                                            -> Filter :
+                                               - Barcode
+                                               - SKU
+                                               - Variant ID
+                                               - Variant title
+                                            -> products
+                                            -> Cancel
+                                            -> Add   
+                                         -- Collections :
+                                            -> Find Collection
+                                            -> Home page :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected
+                                         -- Product Types :
+                                            -> Find Product types
+                                            -> No result found
+                                            -> Cancel
+                                            -> Add
+                                            -> NO of varients selected
+                                         -- Tags :
+                                            -> Find tags
+                                            -> craft :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected
+                                            -> Paper Items :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected   
+                                         -- Vendors :
+                                            -> Find vendors
+                                            -> GeethikaStores :
+                                               - Search products
+                                               - products
+                                               - No of variants selected
+                                               - Cancel
+                                               - Add
+                                            -> Warehouse Package company :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected 
+                                  --- Payment :
+                                      -> Subtotal
+                                      -> Add discount
+                                      -> Add shipping or delivery 
+                                      -> Estimated tax
+                                      -> Total
+                                  --- Notes :
+                                      -> Add Notes :
+                                         - Notes
+                                         - cancel
+                                         - Done
+                                  --- Customer :
+                                      -> Search product
+                                  --- Market :
+                                      -> Change market :
+                                         - Search
+                                         - Primary market :
+                                           -> India
+                                         - Cancel
+                                         - Change market
+                                  --- Tags :
+                                      -> Add tags :
+                                         - Search and Find or Create pages
+                                         - Frequently used :
+                                           -> Alphabetical
+                                           -> Frequently used
+                                         - Cancel
+                                         - Save  
+
+           --> Abandoned Checkouts :
+                     -- Upgrade to the new abandoned checkout automation
+                        -> Visit marketing automations :
+                           -- Automation : 
+                              - Reach
+                              - Sessions
+                              - Orders 
+                              - Sales
+                              - Automations :
+                                -> All automation
+                                -> Search in All automations
+                                -> Cancel
+                                -> Upload :
+                                   - Sort by :
+                                     -- Date created 
+                                     -- Title
+                                     -- Oldset
+                                     -- Newest
+                             - Recover sales with reengagement automations :
+                               -> New 
+                               -> Abandoned checkout :
+                                  - Turn On :
+                                    -> View abandoned checkout email in settings
+                                    -> Cancel
+                                    -> Continue
+                               -> Abandoned cart
+                               -> Abandoned product browse
+                               -> Automate your marketing :
+                                  - Hamburger Ion(...) :
+                                    -> Dismiss 
+                                    -> Feedback
+                               -> Explore automation templates (or) Create automation :
+                                  - Automation templates
+                                  - Create custom automation
+                                  - Send a back in stock email :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Send browser push notification for specific product releases :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Send a post-purchase upsell email or SMS :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Abandoned checkout :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Abandoned cart :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Abandoned product browse :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Welcome new subscriber :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Welcome email series (discount with reminder) :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Welcome email series (brand story with discount) :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Post-purchase thank you :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - First-purchase upsell :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                  - Customer winback :
+                                    -> Zoom in
+                                    -> Zoom Out
+                                    -> Close
+                                    -> Use workflow
+                                         
+
+Products :
+    - Collections
+    - Inventory
+    - Purchase orders
+    - Tranfers
+    - Gift cards
+    - Catalogs
+
+           --> Products :
+                     -- Export 
+                     -- Import 
+                     -- More Actions :
+                            -Hide analytical bars
+                     -- Add Products :  
+                            - Title :
+                            - Description :
+                            - Media :
+                              -- Upload new
+                              -- Add from URL
+                            - Pricing :
+                              -- Price
+                              -- Compare-at price
+                              -- Charge tax on this product
+                              -- Cost per item
+                              -- Profit
+                              -- Margin
+                            - Inventory :
+                              -- Track quantity
+                              -- Quantity
+                              -- Shop location
+                              -- Continue selling when out of stock
+                              -- This product has a SKU or barcode
+                            - Shipping :
+                              -- This is a physical product
+                              -- Weight
+                              -- Units
+                              -- Add customs information
+                            - Variants :
+                              -- Add option like size or color
+                            - Search engine listing :
+                              - Edit :
+                                  -> Page title
+                                  -> Meta description
+                                  -> URL handle
+                            - Status :
+                              - Active
+                              - Draft
+                            - Publishing :
+                              - Sales channels :
+                                   -> Online Store
+                                   -> Point of Sale
+                              - Hamburger Icon(..) :
+                                   -> Manage Sales Channel
+                                   -> Manage Markets
+                              - Market :
+                                   -> India and International
+                              - Date and Time :
+                                   -> Cancel
+                                   -> Schedule piblishing 
+                              - Product organization :
+                                   -> Product category
+                                   -> Tax rates
+                                   -> Product type
+                                   -> Vendor
+                                   -> Collections
+                                   -> Tags
+                              - Theme template :
+                                   -> Default Product
+                              -Save
+                     -- Status bar :
+                            - All :
+                              -> All products displayed
+                            - Active :
+                              -> All products displayed
+                            - Draft :
+                              -> Search 
+                              -> Sort	
+                            - Archived :
+                              -> Search 
+                              -> Sort	
+                            - + :
+                              -> Create new view :
+                                 -- Name
+                                 -- Cancel 
+                                 -- Create view
+                     -- Product :
+                            - Title
+                            - Description :
+                              -> Generate Text
+                              -> Formatting
+                              -> Bold
+                              -> Italic
+                              -> Underline
+                              -> Color
+                              -> Alignment
+                              -> Link
+                              -> Insert Image
+                              -> Insert Video
+                              -> Hamburger Icon(...) :
+                                 - Bulleted List 
+                                 - Numbered List
+                                 - Outdent
+                                 - Indent
+                                 - Insert Table
+                                 - Clear Formatting	
+                            - Media :
+                                 - Add Image
+                                 - Add URL
+                            - Variants :
+                                  --- Material
+                                  --- Add another option :
+                                      -> Add variant
+                                      -> Edit
+                            - Search engine listing :
+                                  --- Edit
+                            - Status :
+                                 --- Active
+                                 --- Draft
+                            - Publishing
+                                  --- Sales channels :
+                                         - Online Store
+                                         - Point of Store
+                                  --- Markets :
+                                         - India
+                                         - International
+                                  --- Hamburger Icon(...) :
+                                         - Manage sales channels
+                                         - Manage markets        
+                            - Insights
+                            - Product organization :
+                                 --- Product category
+                                 --- Tax rates
+                                 --- Product type
+                                 --- Vendor
+                                 --- Collections
+                                 --- Tags
+                            - Theme template :
+                                 --- View template
+                                 --- Default product
+                     -- Archive Product
+                     -- Delete Product
+                     -- Save
+
+           --> Collections :
+                     -- Create collections :
+                        --> Title
+                        --> Description
+                        --> Collection type :
+                            - Manual
+                            - Automated
+                        --> Search engine listing :
+                            - Edit
+                        --> Publishing :
+                            - Online Store
+                            - Point of Sale
+                        --> Images :
+                            - Add Image
+                        --> Theme template :
+                            - Default collection 
+                     -- Add collections
+                     -- Search and Filter
+                     -- Sort
+
+           --> Inventory :
+                     -- Duplicate :
+                        -> Title
+                        -> Images
+                        -> SKUS
+                        -> Barcodes
+                        -> Inventory quantities
+                        -> Translations
+                        -> Product status :
+                           - Set as draft
+                           - Set as active
+                        -> Cancel
+                        -> Duplicate product
+                     -- Preview
+                     -- Share :
+                        -> Cancel
+                        -> Go to preferences
+                     -- More Actions :
+                        -> Run Flow Automation
+                     -- Next (< >)
+                     -- Status :
+                        -> Active
+                        -> Draft
+                     -- Publishing :
+                        -> Sales Channel :
+                        -> Hamburger Icon(...) :
+                     -- Insights
+                     -- Product organization :
+                        -> Product category
+                        -> Product type
+                        -> Vendor
+                        -> Collections
+                        -> Tags
+                     -- Theme template :
+                        -> View template
+                     -- All
+                     -- + : 
+                        - Add product :
+                          -> Title
+                          -> Description
+                          -> Media :
+                             - Add Image
+                             - Add URL
+                          -> Variants :
+                             - Material
+                             - Edit
+                             - + Add another option :
+                               --> Select
+                               --> All
+                               --> None
+                               --> Material
+                               --> Add Variant   
+                            -> Search engine listing :
+                               --> Edit
+                            -> Archive product
+                            -> Delete product
+                            -> Save
+           --> Purchase orders :
+                     -- Learn more
+                     -- Create purchase order :
+                                  --- Supplier :
+                                         - Select supplier :
+                                           -- Create new supplier
+                                         - No suppliers found
+                                         - payment terms(optional) :
+                                           -- Search Bar
+
+                                  --- Destination :
+                                         - Shop location :
+                                              --> Shop location
+                                              --> Supplier currency :
+                                                  -- Search Bar
+
+                                  --- Shipment details :
+                                         - Estimated arrival :
+                                           --> Estimated arrival
+                                         - Shipping carrier :
+                                           --> Search Bar
+                                         - Tracking number :
+                                           --> Search Bar
+
+                                  --- Add products :
+                                      - Searh Product
+                                      - Browse :
+                                        -> Search product :
+                                         -- All products :
+                                            -> Search product
+                                            -> Filter :
+                                               - Barcode
+                                               - SKU
+                                               - Variant ID
+                                               - Variant title
+                                            -> products
+                                            -> Cancel
+                                            -> Add   
+                                         -- Popular products :
+                                            -> Search product
+                                            -> Filter :
+                                               - Barcode
+                                               - SKU
+                                               - Variant ID
+                                               - Variant title
+                                            -> products
+                                            -> Cancel
+                                            -> Add   
+                                         -- Collections :
+                                            -> Find Collection
+                                            -> Home page :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected
+                                         -- Product Types :
+                                            -> Find Product types
+                                            -> No result found
+                                            -> Cancel
+                                            -> Add
+                                            -> NO of varients selected
+                                         -- Tags :
+                                            -> Find tags
+                                            -> craft :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected
+                                            -> Paper Items :
+                                               - Search product
+                                               - Storage Box in craft paper :
+                                                 -> Lagre
+                                                 -> Medium
+                                                 -> small
+                                               - Cancel
+                                               - Add
+                                               - NO of varients selected   
+                                         -- Vendors :
+                                            -> Find vendors
+                                            -> GeethikaStores :
+                                               - Search products
+                                               - products
+                                               - No of variants selected
+                                               - Cancel
+                                               - Add
+                                          -- No of VAriants selected
+                                          -- Cancel
+                                          -- Add
+
+                                  --- Additional details :
+                                         - Reference number
+                                         - Note to supplier
+                                         - Tags
+
+                                  --- Cost summary :
+                                         - Manage
+                                         - Taxes
+               
+                                  --- Subtotal :
+                                         - Items
+
+                                  --- Cost adjustments :
+                                         - Shipping
+
+                                  --- Toatl
+                                  --- Save in Drafts
+
+           --> Transfers :
+                     -- Learn more
+
+           --> Gift cards :
+                     -- Export
+                     -- Create gift card
+                     -- Add gift card products :
+                     
+                            - Create gift card :
+                               --- Gift card details :
+                                   -> Gift card code
+                                   -> Initial value
+					    --- Expiration date :
+					        -> No expiration date
+					        -> Set expiration date
+					    --- Customer :
+					        -> Search or create customer
+					    --- Internal notes 
+					        
+                            - Add gift card products :
+                                     --- Title 
+                                     --- Description 
+                                     --- Media :
+                                         -> Upload new
+                                         -> Add form URL	
+                                     --- Denominations :
+                                         -> Add Denominations
+                                         -> Delete
+                                     --- Search engine listing :
+                                         -> Edit
+                                     --- Status :
+                                         -> Active
+                                         -> Draft
+                                     --- Publishing :
+                                         -> Sales channels :
+                                            - Online Store
+                                            - Point of Sale
+                                            - Schedule Online Store publishing :
+                                              -- Add Date and Time
+                                              -- Cancel
+                                              -- Schedule publishing
+                                          -> Hamburger Icon(...) :
+                                             -- Manage sales channel
+                                             -- Manage markets
+                                     --- Product organization :
+                                         -> Product category
+                                         -> Tax rates
+                                         -> Product type
+                                         -> Vendor
+                                         -> Collections
+                                         -> Tags
+                                     --- Theme template :
+                                         -> Default product
+                                     --- Gift card template :
+                                         -> gift_card
+                                     --- Save gift card product
+           --> Catalogs :
+                     -- Export
+                     -- Import
+                     -- Create catalog :
+                            - All products
+                            - Specific products
+                     -- cancel
+                     -- Continue      
+ 
+Customers :
+    - Segments
+    - Companies
+
+           --> Customers :
+                     -- Import customers :
+                            - Add files 
+                            - Download a sample CSV
+                            - Cancel
+                            - Import customers
+
+                     -- Add customers :
+                             -New customer :
+                                     --- Customer overview :
+                                           --> First name
+                                           --> Last name
+                                           --> Language 
+                                           --> Email
+                                           --> Phone number
+                                           --> Customer agreed to receive marketing emails.
+                                           --> Customer agreed to receive SMS marketing text messages.
+                                     --- Address :
+                                           --> Country/region
+                                           --> First name
+                                           --> Last name
+                                           --> Company
+                                           --> Address
+                                           --> Apartment, suite, etc.
+                                           --> City
+                                           --> State
+                                           --> PIN code
+                                           --> Phone
+                                     --- Tax exemptions :
+                                           --> Collect tax
+                                     --- Notes :
+                                           --> Note
+                                     --- Tags :
+                                           --> Tags
+
+
+           --> Segments :
+               --> Search segments :
+                     -- Name
+                     -- Customers who have purchased at least once
+                     -- Email subscribers
+                     -- Abandoned checkouts in the last 30 days
+                     -- Customers who have purchased more than on
+                     -- Customers who haven't purchased
+  			     
+  			     -- Create segments :
+  			        -> New segment
+  			        -> Draft
+  			        -> Duplicate
+  			        -> More Actions :
+  			           -- Export
+  			           -- Rename
+  			           -- Delete
+  			        -> Use segment
+  			        -> Templates
+  			        -> Filters
+  			        -> Close editor
+  			        -> Apply
+  			           
+
+           --> Companies :
+                     -- Add company :
+                             - New company :
+                                     --- Company name
+                                     --- Company ID
+                             - Main contact
+                             - Location
+                                     --- Shipping address :
+                                           --> Country/region
+                                           --> Attention
+                                           --> Address
+                                           --> Apartment, suite, etc.
+                                           --> City
+                                           --> Postal code
+                                           --> Phone
+                                           --> Location ID
+                                           --> Clear
+                             - Catalogs
+                             - Payment
+                             - Checkout :
+                                  --> Allow customers to ship to any address
+                                  --> Order Submission :
+                                      - Automatically submit orders
+                                      - Submit all orders as drafts for review
+                             - Taxes :
+                                  --> Tax ID
+                                  --> Tax exemptions
+                             - Save      
+
+
+Content :
+    - Metaobjects
+    - Files
+
+           --> Metaobjects :
+                     -- Add definition 
+                     -- Settings :
+                        - GeethikaStores :
+                          --> Store details :
+                              -- Profile :
+                                 -> Store name
+                                 -> Store phone
+                                 -> Store email
+                              -- Billing information :   
+                                 -> Business address
+                              -- Store currency :
+                                 -> Search Bar
+                                 -> Change formatting
+                              -- Time zone and units of measurement :
+                                 -> Time zone
+                                 -> Unit system
+                                 -> Default weight unit
+                              -- Order ID :
+                                 -> Prefix
+                                 -> Suffix
+                          --> Plan :
+                              -- Custom plan :
+                                 -> Payment method
+                                 -> No payment method added
+                                 -> Update payment method
+                                 -> Deactivate store
+                                 -> chnage plan
+                          --> Billing :
+                              -- Payment methods :
+                                 -> Add payment method
+                              -- Billing currency :
+                                 -> Change currency
+                              -- Subscriptions :	
+                                 -> Development
+                                 -> View all
+                              -- Bills
+                              -- Credits
+                              -- Tax registration :
+                                 -> GSTIN
+                                 -> Add GSTIN
+                                 -> I don't have a GSTIN
+                              -- Statement of charges :
+                                 -> View Summary          
+                          --> Users and Permissions :
+                              -- Store owner :
+                                 -> skillsonline Admin
+                              -- Staff (2 of 15) :
+                                 -> Pradeep Kumar
+                                 -> geethika surakatti
+                                 -> Add staff
+                              -- Collaborators :
+                                 -> Anyone can send a collaborator request
+                                 -> Only people with a collaborator request code can send a collaborator request
+                                 -> Collaborator Request Code
+                                 -> Generate new code
+                                 -> Copie clipboard
+                              -- Login services :
+                                 -> Name
+                                 -> Status
+                                 -> Edit
+                          --> Payments :
+                              -- Payment providers :
+                                 -> Choose a provider
+                              -- Supported payment methods :
+                                 -> PayPal
+                                 -> Active PayPal
+                                 -> + Add payment method
+                              -- Payment capture method :
+                                 -> Automatic at checkout
+                                 -> Manage
+                              -- Manual payment methods :
+                                -> Add manual payment method
+                              -- Payment customizations
+                          --> Checkout :
+                              -- Checkout style :
+                                 -> Customize checkout
+                              -- Customer contact method :
+                                 -> Phone number or email
+                                 -> Email
+                                 -> Show a link for customers to track their order with Shop
+                                 -> Require the customer to log in to their account before checkout
+                              -- Customer information :
+                                 -> Full name :
+                                    -- Only require last name
+                                    -- Require first and last name
+                                 -> Company name :
+                                    -- Don't include
+                                    -- Optional
+                                    -- Required
+                                 -> Address line 2 (apartment, unit, etc.) :
+                                    -- Don't include
+                                    -- Optional
+                                    -- Required
+                                 -> Shipping address phone number :   
+                                    -- Don't include
+                                    -- Optional
+                                    -- Required 
+                              -- Marketing options :
+                                 -> Email :
+                                    -- Preselected
+                                 -> SMS
+                                 -> Customize sign-up labels
+                              -- Tipping :
+                                 -> Show tipping at checkout
+                              -- Address collection preferences :
+                                 -> Use the shipping address as the billing address by default
+                                 -> Use address autocompletion
+                              -- Order processing :
+                                 -> After an order has been paid :
+                                    -- Automatically fulfill the order‘s line items
+                                    -- Automatically fulfill only the gift cards of the order
+                                    -- Don’t fulfill any of the order’s line items automatically
+                                 -> Automatically archive the order
+                              -- Abandoned checkout emails :
+                                 -> Send abandoned checkout emails automatically
+                                 -> Send to :
+                                    -- Anyone who abandons their checkout
+                                    -- Email subscribers who abandon their checkout
+                                 -> Send after :
+                                    -- 1 hour
+                                    -- 6 hours
+                                    -- 10 hours(recommended)
+                                    -- 24 hours
+                                 -> Customize email
+                              -- Order status page :
+                                 -> Go to Pixels
+                                 -> Learn more
+                                 -> Additional scripts
+                              -- Checkout language :
+                                 -> manage checkout language
+                              -- Checkout rules
+                              -- Save
+                          --> Customer accounts :
+                              -- Accounts in online store and checkout :
+                                 -> Edit
+                                 -> Login experience
+                                 -> Version
+                              -- New customer accounts
+                              -- Branding :
+                                 -> Customize checkout
+                              -- Self-serve returns :
+                                 -> Turn on
+                              -- URL :
+                                 -> URL link
+                                 -> copy
+                                 -> Manage domain
+                              -- Classic customer accounts
+                              -- Branding :
+                                 -> Customize theme
+                              -- URL :
+                                 -> URL link
+                                 -> copy
+                                 -> Manage domain
+                              -- Sign in with Shop :
+                                 -> Turn on	
+                              -- Multipass :
+                                 -> Turn on
+                          --> Shipping and delivery :
+                              -- Shipping :
+                                 -> General shipping rates :
+                                    - General :
+                                      -- All products
+                                    - Rates for :
+                                      -- Domestic
+                                      -- International  
+                              -- Custom shipping rates :
+                                 -> Create new profile
+                              -- Expected delivery dates :
+                                 -> Seach Bar 
+                                 -> Off
+                              -- Local delivery :
+                                 -> Shop location
+                                 -> Doesn't offer delivery
+                              -- Local pickup :
+                                 -> Shop location
+                                 -> Doesn't offer delivery	
+                              -- Delivery customizations
+                              -- Saved packages :
+                                 -> Add package
+                                    -- Package name
+                                    -- Package type :
+                                       - Box
+                                       - Envelope
+                                       - Soft package or satchel
+                                       - Length
+                                       - Width
+                                       - Height
+                                       - Weight (optional)
+                                       - Make this the default store package
+                                       - Cancel
+                                       - Add package	
+                              -- Carrier accounts :
+                                 -> Connect account
+                              -- Packing slips :
+                                 -> Edit template 
+                              -- Custom order fulfillment :
+                                 -> Add fulfillment service
+                          --> Taxes and duties :
+                              -> Manage sales tax collection :
+                                 -- Search
+                                 -- sort
+                                 -- Show all countries/regions
+                              -> Duties and import taxes :
+                                 -- Setup
+                              -> Decide how tax is charged :
+                                 -- Include tax in prices
+                                 -- Include or exclude tax based on your customer’s country
+                                 -- Charge tax on shipping rates
+                                 -- Charge VAT on digital goods
+                          --> Locations :
+                              -> Shop location 
+                              -> Add location
+                              -> Default
+                          --> Gift card :
+                              -> Default expiration
+                              -> Send by default
+                              -> Apple Wallet Passes
+                              -> Edit
+                          --> Markets :
+                              -> Preferences :
+                                 -- Market redirection :
+                                    - Automatic redirection
+                                    - Geolocation
+                                    - Install
+                              -> Pricing :
+                                 -- Local currencies
+                                 -- Price rounding
+                                 -- Compare-at price hiding
+                              -> Taxes :
+                                 -- Tax inclusion
+                          --> Apps and sales channels :
+                              -> Installed :
+                                 -- Email
+                                 -- Online Store
+                                 -- Point of sale
+                                 -- Flow
+                                 -- Advanced Cash on delivery
+                                 -- Sort by Relevance
+                                 -- Develop apps :
+                                    -> Develop apps :
+                                       - Allow custom app development :
+                                         -- You are about to allow custom app development on your store
+                                         -- Apps are subject to the Shopify API License and Terms of Use :
+                                            -> Cancel
+                                            -> Allow custom app development
+                                    -> Shopify App Store
+                          --> Domains :
+                              -- Buy or connect a domain :
+                                 -> Buy new domain
+                                 -> Connect existing domain
+                                 -> Search domains
+                                 -> Domain
+                                 -> Target
+                          --> customer events :
+                              -- Explore pixel apps
+                              -- Add custom pixel
+                              -- Analyze customer behavior with pixels :
+                                 -> Learn about pixel
+                          --> Brand :
+                              -- ESSENTIAL :
+                                 -> Default Logo
+                                 -> Square Logo
+                                 -> Colors
+                              -- ADDITIONAL :
+                                 -> Cover Image
+                                 -> Slogan
+                                 -> Short Description
+                                 -> Social Links
+                              -- Logos :
+                                 -> Default :
+                                    -- Add a default logo :
+                                       - Add image
+                                       - Search bar
+                                       - Filter
+                                       - Sort
+                                       - List view
+                                       - Grid view
+                                 -> Square :
+                                    -- Add a square logo :
+                                       - Add image
+                                       - Search bar
+                                       - Filter
+                                       - Sort
+                                       - List view
+                                       - Grid view      
+                              -- Colors :
+                                 -> Primary :
+                                    -- Add a primary colour
+                                 -> Secondary :
+                                    -- Add a secondary colour
+                              -- Cover Image :
+                                 -> Add a cover image :
+                                    -- Add image
+                                    -- Search bar
+                                    -- Filter
+                                    -- Sort
+                                    -- List view
+                                    -- Grid view
+                              -- Slogan :
+                                 -> Add a slogan
+                              -- Short description :
+                                 -> Add a short description
+                              -- Social links :
+                                 -> Add a social link
+                          --> Notifications :
+                              -- Customize email templates
+                              -- Sender email
+                              -- Orders
+                              -- Shipping
+                              -- Local delivery
+                              -- Local pickup
+                              -- Customer
+                              -- Gift cards
+                              -- Email marketing
+                              -- Returns
+                              -- Marketing
+                              -- Double opt-in
+                              -- Staff order notifications
+                              -- Orders
+                              -- Recipients
+                              -- Draft orders
+                              -- Webhooks
+                          --> Custom data :
+                              -- Metafields :
+                                 -> Products
+                                 -> Variants
+                                 -> Collections
+                                 -> Customers
+                                 -> Orders
+                                 -> Draft orders
+                                 -> Compaines
+                                 -> Comapny Location
+                                 -> Locations
+                                 -> Pages
+                                 -> Blog
+                                 -> Blog posts
+                                 -> Markets
+                              -- Metaobjects :
+                                 -> Create your first metaobject
+                                 -> Add definition
+                          --> Languages :
+                              -- Add a language :
+                                 -> language :
+                                    -- Select Bar
+                                    -- Cancel
+                                    -- Add
+                              -- Published languages :
+                                 -> English
+                                 -> Default
+                              -- Shopify Translate & Adapt :
+                                 -> Install
+                          --> Policies :
+                              -- Store policies :
+                                 -> Return policy :
+                                    -- Return rules
+                                    -- Turn on
+                                    -- Manage
+                                 -> Written return and refund policy :
+                                    -- Paragraph
+                                    -- Create from template
+                                 -> Privacy policy :
+                                    -- Paragraph
+                                    -- Create from template
+                                 -> Terms of service :
+                                    -- Paragraph
+                                    -- Create from template
+                                 -> Shipping policy :
+                                    -- Paragraph
+                                 -> Contact information :
+                                    -- Paragraph
+                                    -- Create from template
+                          --> Store activity log	
+                          
+                        - Add metaobject definition :
+                          --> Name
+                          --> Fields :
+                              -- + Add Field
+                          --> Options :
+                              -- Access :
+                                 -> Storefronts
+                              -- Features :
+                                 -> Web pages
+                          --> Save       
+                                                          
+           --> Files :
+                     -- All product files
+                     -- Upload files
+                     -- Search and Filter
+                     -- sort
+
+
+Analytics :
+    - Reports
+    - Live View
+
+           --> Analytics :
+                     -- Today
+                         - Compare: Yesterday
+                     -- Full Screen
+                     -- Auto-refresh
+                     -- Customize
+
+           --> Reports :
+                     -- Sessions by location
+                     -- Sessions by referrer                
+                     -- Sessions over time
+                     -- Online store cart analys
+                     -- Online store conversion
+                     -- Online store speed
+                     -- Product recommendatics
+                     -- Search conversions over
+                     -- Sessions by device
+                     -- Sessions by landing page
+                     -- Top online store search
+                     -- Top products with low recomendation
+                     -- Customer cohort analysis
+
+           --> Live View :
+                     -- Visitors right now
+                     -- Total sales  and View report
+                     -- Total sessions and View report
+                     -- Top locations and View report
+                     -- Customers
+                     -- Top products
+                     -- Customer behaviour
+                           - Active carts
+                           - Checking out
+                           - Purchased
+Marketing :
+    - Campaigns 
+    - Automtion 
+
+           --> Marketing :
+                     -- Create campaign
+                     -- Calander
+                     -- Compare: Previous period
+                     -- Last non-direct click :
+                           - Attribution model
+
+           --> Campaigns :
+                     -- Calander
+                     -- Last non-direct click :
+                           - Attribution model
+                     --  Hamburger icon :
+                           - Manage filters :
+                             --- Search bar
+                             --- Delete
+                             --- Add filter                             
+                             --- Cancel
+                             --- Apply filter
+                           - Search  filter :
+                             --- Marketing Campaign :
+                                 -> Marketing event type
+                                 -> UTM campaign content
+                                 -> UTM campaign medium
+                                 -> UTM campaign term
+                             --- Referrer :
+                                 -> Referring category
+                                 -> Referring URL
+                                 -> Paid, organic, other  
+                             --- Orders :
+                                 -> Sales
+                                 -> Orders
+                                 -> AOV
+                                 -> Cost
+                                 -> Return on adspend
+                                 -> Cost per acquisition
+                             --- Sessions :
+                                 -> Sessions
+                                 -> Impressions
+                                 -> Clicks
+                                 -> Click through rate
+                                 -> Conversion rate
+                            --- Customers :
+                                -> First time customers
+                                -> Returning customers 
+                     -- Campaign activities
+                     -- Sales 
+                     -- Sessions
+                     -- Orders
+                     -- AOV
+                     -- Conversion rate
+                     -- First time customers
+                     -- Returning customers                                   
+               
+           --> Automtion :
+                     -- Create  Automation :
+                        --- Exit 
+                        --- Draft
+                        --- Custom marketing automation Search Bar
+                        --- Turn on workflow
+                        --- Triggers :
+                            -> Select app
+                            -> Select trigger
+                            -> Search apps and tasks
+                            -> Installed apps
+                            -> Clear all
+                            -> Search apps and tasks
+                            -> Flow
+                     -- Reach
+                     -- Sessions
+                     -- Orders
+                     -- Sales
+                     -- Automations :
+                           - All Automations
+                           - Search and filter
+                           - Sort
+
+Discounts :
+    - Export
+    - Create discount
+
+           --> Create discount :
+                     -- Select discount type:
+                        -> Amount off products :
+                           -- Create product discount :
+                              --- Amount off products :
+                                  -- Discount code
+                                  -- Automatic Discount
+                                  -- Discount code (\Search Bar)
+                                  -- Generate Random code
+                              --- Discount Value :
+                                  -- Percentage
+                                  -- Fixed amount
+                                  -- Applies to :
+                                     -> Specific Collections
+                                     -> Specific Products
+                                  -- Search collections
+                                  -- Browse :
+                                     -> Search Bar
+                                     -> Home page
+                                     -> Cancel
+                                     -> Add
+                              --- Minimum purchase requirements :
+                                  -- No minimum requirements
+                                  -- Minimum purchase amount (₹)
+                                  -- Minimum quantity of items
+                              --- Customer eligibility :
+                                  -- All customers
+                                  -- Specific customer segments
+                                  -- Specific customers
+                              --- Maximum discount uses :
+                                  -- Limit number of times this discount can be used in total
+                                  -- Limit to one use per customer
+                              --- Combinations :
+                                  -- Product discounts
+                                  -- Order discounts
+                                  -- Shipping discounts
+                              --- Active dates :
+                                  -- Start date
+                                  -- Start time (EST)
+                                  -- Set end date
+                              --- Summary :
+                                  -- No discount code yet
+                                  -- Type and method :
+                                     -> Amount off products
+                                     -> Code
+                                  -- Details :
+                                     -> Can’t combine with other discounts
+                                  -- Performance :
+                                     -> Discount is not active yet
+                                  -- Sales channels :
+                                     -> Point of Sale
+                              --- Discard
+                              --- Save discount	          
+                        -> Buy X get Y :
+                           -- Create product discount :
+                              --- Buy X get Y :
+                                  -- Method :
+                                     -> Discount code
+                                     -> Automatic Discount 
+                                     -> Discount code
+                                     -> Generate Random code
+                              --- Customer buys :
+                                  -- Minimum purchase amount (₹)
+                                  -- Minimum quantity of items
+                                  -- Quantity
+                                  -- Any items from
+                                  -- Search products
+                                  -- Browse
+                              --- Customer gets :
+                                  -- Quantity
+                                  -- Any items from
+                                  -- Search products
+                                  -- Browse
+                              --- At a discounted value :
+                              	  -- Percentage
+                              	  -- Amount off each
+                              	  -- Free
+                              	  -- Set a maximum number of uses per order
+                              --- Customer eligibility :
+                                  -- All customers
+                                  -- Specific customer segments
+                                  -- Specific customers 
+                              --- Maximum discount uses :
+                                  -- Limit number of times this discount can be used in total
+                                  -- Limit to one use per customer
+                              --- Combinations :
+                                  -- Product discounts
+                                  -- Order discounts
+                                  -- Shipping discounts
+                              --- Active dates :
+                                  -- Start date
+                                  -- Start time (EST)
+                                  -- Set end date
+                              --- Discard
+                              --- Save discount	
+                        -> Amount off order :
+                           -- Create order discount :
+                              --- Amount off order :
+                                  -- Discount code
+                                  -- Automatic Discount
+                                  -- Discount code (\Search Bar)
+                                  -- Generate Random code
+                              --- Discount Value :
+                                  -- Percentage
+                              --- Minimum purchase requirements :
+                                  -- No minimum requirements
+                                  -- Minimum purchase amount (₹)
+                                  -- Minimum quantity of items
+                              --- Customer eligibility :
+                                  -- All customers
+                                  -- Specific customer segments
+                                  -- Specific customers
+                              --- Maximum discount uses :
+                                  -- Limit number of times this discount can be used in total
+                                  -- Limit to one use per customer
+                              --- Combinations :
+                                  -- Product discounts
+                                  -- Order discounts
+                                  -- Shipping discounts
+                              --- Active dates :
+                                  -- Start date
+                                  -- Start time (EST)
+                                  -- Set end date
+                              --- Summary :
+                                  -- No discount code yet
+                                  -- Type and method :
+                                     -> Amount off products
+                                     -> Code
+                                  -- Details :
+                                     -> Can’t combine with other discounts
+                                  -- Performance :
+                                     -> Discount is not active yet
+                                  -- Sales channels :
+                                     -> Point of Sale
+                              --- Discard
+                              --- Save discount
+                        -> Free shipping :
+                           -- Create shipping discount :
+                               --- Free shipping :
+                                  -- Discount code
+                                  -- Automatic Discount
+                                  -- Discount code (\Search Bar)
+                                  -- Generate Random code
+                              --- Countries :
+                                  -- All countries
+                                  -- Selected countries
+                              --- Shipping rates :
+                                  -- Exclude shipping rates over a certain amount    
+                              --- Minimum purchase requirements :
+                                  -- No minimum requirements
+                                  -- Minimum purchase amount (₹)
+                                  -- Minimum quantity of items
+                              --- Customer eligibility :
+                                  -- All customers
+                                  -- Specific customer segments
+                                  -- Specific customers
+                              --- Maximum discount uses :
+                                  -- Limit number of times this discount can be used in total
+                                  -- Limit to one use per customer
+                              --- Combinations :
+                                  -- Product discounts
+                                  -- Order discounts
+                                  -- Shipping discounts
+                              --- Active dates :
+                                  -- Start date
+                                  -- Start time (EST)
+                                  -- Set end date
+                              --- Summary :
+                                  -- No discount code yet
+                                  -- Type and method :
+                                     -> Amount off products
+                                     -> Code
+                                  -- Details :
+                                     -> Can’t combine with other discounts
+                                  -- Performance :
+                                     -> Discount is not active yet
+                                  -- Sales channels :
+                                     -> Point of Sale
+                              --- Discard
+                              --- Save discount
+
+                              
